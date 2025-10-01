@@ -22,9 +22,7 @@ app.use(methodOverride("_method"))
 // }
 const connection=sql.createConnection({
     host:"localhost",
-    user:"root",
-    database:"account",
-    password:"YaDav@54321"
+    user:"root"
 })
 // let q="insert into  user(id,userName,email,password) values ?";
 // try{
